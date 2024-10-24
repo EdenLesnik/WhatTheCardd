@@ -1,0 +1,12 @@
+.crm-container {
+    height: 100vh;
+  }
+  
+  .crm-sidebar {
+    min-width: 200px;
+  }
+  
+  .crm-content {
+    overflow-y: auto;
+  }
+  

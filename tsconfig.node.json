@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "jsx": "react-jsx", // Enable JSX support for React
+    "target": "es6", // Optional: Set the target to a modern version of JavaScript
+    "resolveJsonModule": true // Optional: Allows importing JSON files
+  },
+  "include": ["vite.config.ts", "src", "types"]
+}
